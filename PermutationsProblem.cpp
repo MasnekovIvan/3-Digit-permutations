@@ -16,7 +16,7 @@ int main()
 	for (int fireDepartment = 1; fireDepartment <= 7; fireDepartment++)
 	{
 		// Цикл перебирающий номер Полиции, только четные числа
-		for (int policeDepartment = 2; policeDepartment <= 7; policeDepartment += 2)
+		for (int policeDepartment = 1; policeDepartment <= 7; policeDepartment += 1)
 		{
 			// Цикл перебирающий номер Скорой помощи
 			for (int erDepartment = 1; erDepartment <= 7; erDepartment++)
